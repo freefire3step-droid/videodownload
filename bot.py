@@ -24,9 +24,9 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
 # ---------------------------------------------------------------- config
-API_ID = int(os.environ.get("API_ID", "0"))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("33019465", "0"))
+API_HASH = os.environ.get("02fe1be68e1f501bb36dcfc55e8014ca", "")
+BOT_TOKEN = os.environ.get("8656620646:AAERseX1q82Hn7BR4HZcEt4xi9PLjGstXQQ", "")
 
 # টেলিগ্রাম বট আপলোড লিমিট (bytes). Pyrogram/MTProto => 2 GB
 MAX_FILE_SIZE = int(os.environ.get("MAX_FILE_SIZE", 2 * 1024 * 1024 * 1024))
